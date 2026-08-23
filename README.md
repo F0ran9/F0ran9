@@ -28,10 +28,10 @@
 |---|---|
 | 🎯 **渗透任务主线** | 4 测试模式（standard / redteam / postexploit / safe）· 授权目标 scope · 11-Tab 任务详情（目标/漏洞/矩阵/记忆/思路/证据/运行/时间线/报告/日志/纠偏）· 实时 SSE 进度 · 预算守卫（软 100min / 硬 180min / 400 回合） |
 | 🌐 **Web 渗透** | 爬虫侦察（JS 全覆盖模式）· SQLi / XSS / 命令注入 / LFI 检测 · IDOR 双会话比对 · 文件上传 Fuzz · 认证爆破 · CVE 查询（POC 真验证 + 误报治理）· 资产×漏洞热力矩阵 |
-| 🕹️ **C2 控制** | HTTP / WS / TCP / DOH 多协议 Listener · Go / C# / Python 三系 Beacon · 载荷生成器（EXE/DLL/shellcode + 配置 trailer）· 196+ BOF 战术库 · 拓扑图 · SOCKS5 / 端口转发 · 真 PTY 终端 · 文件管理 · RDP 屏幕 · Forwarder 级联 · AI Autopilot |
+| 🕹️ **C2 控制** | HTTP / WS / TCP / DOH 多协议 Listener · Go / C# / Python 三系 Beacon · 载荷生成器（Python 模板开箱可用 + 预编 binary 配置 trailer）· 131 BOF 战术目录 · 拓扑图 · SOCKS5 / 端口转发 · 交互终端 · 文件管理 · RDP 屏幕 · Forwarder 级联 · AI Autopilot |
 | 🔧 **Agent 工具箱** | 45+ 原生工具：Bash · Playwright 浏览器自动化 · 端口扫描（nmap/masscan/python 三引擎）· 目录扫描（生长字典 + AI 启发式扩词）· 截图取证 · 测试记忆 · RecordFinding · MCP 适配器 |
 | 🗺️ **资产测绘** | FOFA / Hunter / Quake / Shodan 四源聚合测绘 · 资产自动入库联动任务 |
-| 🧭 **攻击链可视化** | 资产 → 漏洞 → 利用 → 凭据 → 横向移动多层 DAG 自由画布 · 路径回放 · 原子测试矩阵三阶段流转 |
+| 🧭 **攻击链可视化** | 资产 → 漏洞 → 利用 → 凭据 → 横向移动多层 DAG 自由画布（拖拽/缩放/鹰眼）· 原子测试矩阵三阶段流转 |
 | 📚 **知识库** | 任务级知识蒸馏：漏洞库 · 测试记忆 · 经验总结 · 任务沉淀 · 文档库（MinIO）· 渗透路径生长字典（扫描命中自动入库持续进化） |
 | 📦 **交付物** | 6 份制报告（漏洞总览 → Yakit 复测包）· 真实请求/响应包 · 分步复现卡 · 复现脚本（md/pdf/docx）· 证据截图三级溯源 |
 | 🧠 **多模型融合** | GLM / DeepSeek / OpenAI / Kimi / Qwen 多 Provider · 按角色绑定（coordinator / subagent / report / assistant）· token 用量统计与限额 |
