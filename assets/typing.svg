@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="52" viewBox="0 0 680 52">
+  <rect width="680" height="52" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+  <circle cx="16" cy="14" r="4" fill="#FF5F56"/>
+  <circle cx="30" cy="14" r="4" fill="#FFBD2E"/>
+  <circle cx="44" cy="14" r="4" fill="#27C93F"/>
+  <line x1="0" y1="24" x2="680" y2="24" stroke="#21262D" stroke-width="1"/>
+
+  <g font-family="Consolas, 'JetBrains Mono', monospace" font-size="15">
+    <text x="20" y="42" fill="#00FF88">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.22;0.25;1" values="1;1;0;0"/>
+      $ whoami
+    </text>
+    <text x="20" y="42" fill="#00FF88">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.22;0.25;0.47;0.5;1" values="0;0;1;1;0;0"/>
+      &gt; Red Team Operator | AI Pentest Builder
+    </text>
+    <text x="20" y="42" fill="#00FF88">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.47;0.5;0.72;0.75;1" values="0;0;1;1;0;0"/>
+      &gt; Web / API / Intranet Penetration
+    </text>
+    <text x="20" y="42" fill="#00FF88">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.72;0.75;1" values="0;0;1;1"/>
+      &gt; Trust nothing, verify everything.
+    </text>
+  </g>
+</svg>

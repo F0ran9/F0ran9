@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="90" viewBox="0 0 920 90">
+  <path d="M-120,54 C 0,24 120,84 240,54 S 480,24 600,54 S 840,84 1040,54 L1040,90 L-120,90 Z" fill="#7C3AED" opacity="0.35">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -60 0; 0 0" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-120,64 C 0,34 120,94 240,64 S 480,34 600,64 S 840,94 1040,64 L1040,90 L-120,90 Z" fill="#00D4FF" opacity="0.35">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 60 0; 0 0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-120,74 C 0,44 120,104 240,74 S 480,44 600,74 S 840,104 1040,74 L1040,90 L-120,90 Z" fill="#00FF88" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -40 0; 0 0" dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>

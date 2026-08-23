@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="230" viewBox="0 0 920 230">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#12181F"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00FF88">
+        <animate attributeName="stop-color" values="#00FF88;#00D4FF;#7C3AED;#00FF88" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#00D4FF">
+        <animate attributeName="stop-color" values="#00D4FF;#7C3AED;#00FF88;#00D4FF" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#00FF88;#00D4FF;#7C3AED" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="920" height="230" rx="18" fill="url(#bg)"/>
+  <g stroke="#1F2730" stroke-width="1">
+    <line x1="0" y1="46" x2="920" y2="46"/>
+    <line x1="0" y1="92" x2="920" y2="92"/>
+    <line x1="0" y1="138" x2="920" y2="138"/>
+    <line x1="0" y1="184" x2="920" y2="184"/>
+  </g>
+  <g stroke="#1F2730" stroke-width="1">
+    <line x1="184" y1="0" x2="184" y2="230"/>
+    <line x1="368" y1="0" x2="368" y2="230"/>
+    <line x1="552" y1="0" x2="552" y2="230"/>
+    <line x1="736" y1="0" x2="736" y2="230"/>
+  </g>
+
+  <text x="460" y="118" text-anchor="middle" font-family="Consolas, 'JetBrains Mono', monospace" font-size="82" font-weight="700" letter-spacing="10" fill="#0D1117" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)">F0ran9</text>
+
+  <text x="460" y="162" text-anchor="middle" font-family="Consolas, monospace" font-size="17" letter-spacing="5" fill="#8B949E">OFFENSIVE SECURITY · AI RED TEAM</text>
+
+  <circle cx="30" cy="29" r="4" fill="#00FF88">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="42" y="34" font-family="Consolas, monospace" font-size="12" fill="#00FF88">root@f0ran9:~#</text>
+
+  <text x="890" y="34" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#00D4FF" opacity="0.9">[ ONLINE ]</text>
+
+  <path d="M0,218 Q 230,198 460,214 T 920,210 L920,230 L0,230 Z" fill="#00FF88" opacity="0.06"/>
+</svg>

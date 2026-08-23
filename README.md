@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:00ff88,100:7c3aed&text=F0ran9&fontSize=72&fontAlignY=38&stroke=00FF88&strokeWidth=1&desc=Offensive%20Security%20%C2%B7%20AI%20Red%20Team&descAlignY=58&descSize=18" alt="F0ran9"/>
+<img width="100%" src="assets/banner.svg" alt="F0ran9"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=00FF88&center=true&vCenter=true&width=640&lines=%24+whoami%3BRed+Team+Operator+%7C+AI+Pentest+Builder%3BWeb+%2F+API+%2F+Intranet+Penetration%3BTrust+nothing%2C+verify+everything." alt="typing"/>
+<img src="assets/typing.svg" alt="typing"/>
 
 <br/>
 
@@ -42,20 +42,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=F0ran9&show_icons=true&bg_color=0D1117&title_color=00FF88&icon_color=00D4FF&text_color=C9D1D9&border_color=30363D&ring_color=00FF88" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=F0ran9&layout=compact&bg_color=0D1117&title_color=00FF88&icon_color=00D4FF&text_color=C9D1D9&border_color=30363D&langs_count=10" alt="langs"/>
-</div>
-
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=F0ran9&background=0D1117&stroke=30363D&ring=00FF88&fire=00D4FF&currStreakNum=C9D1D9&currStreakLabel=00FF88&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E" alt="streak"/>
-</div>
-
-<div align="center">
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=F0ran9&bg_color=0D1117&color=00FF88&line=00D4FF&point=7C3AED&area=true&area_color=00D4FF&hide_border=true&custom_title=Contribution%20Graph" alt="activity"/>
-</div>
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=F0ran9&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=6" alt="trophy"/>
+<img width="98%" src="https://raw.githubusercontent.com/F0ran9/F0ran9/output/stats.svg" alt="stats"/>
 </div>
 
 ## 🐍 Contribution Snake
@@ -73,6 +60,6 @@
 ---
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=wavelength&height=100&color=0:7c3aed,50:00d4ff,100:00ff88&section=footer" alt="footer"/>
+<img width="100%" src="assets/footer.svg" alt="footer"/>
 <sub><i>Hack. Automate. Repeat. </i>⚡</sub>
 </div>

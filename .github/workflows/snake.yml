@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake & Stats
 
 on:
   schedule:
@@ -12,6 +12,15 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate stats SVG
+        run: python3 scripts/gen_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
